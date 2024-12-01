@@ -1,0 +1,41 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: green;
+  transition: width 0.3s ease-in-out;
+}
+
+.data-table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: #f4f4f4;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
